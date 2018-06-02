@@ -7,13 +7,14 @@
 //
 
 import Cocoa
+import LetsMove
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     @IBOutlet weak var window: NSWindow!
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // maximize window
-        
+        PFMoveToApplicationsFolderIfNecessary()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

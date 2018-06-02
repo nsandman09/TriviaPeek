@@ -15,8 +15,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var googleWebView: WKWebView!
     @IBOutlet weak var discordWebView: WKWebView!
     @IBOutlet weak var triviaQuackWebView: WKWebView!
-//  @IBOutlet weak var hqtLiveWebView: WKWebView!
-//  @IBOutlet weak var hqtLegacyWebView: WebView!
     @IBOutlet weak var triviaPartyLegacyView: WebView!
     @IBOutlet weak var triviaCrowdWebView: WKWebView!
     

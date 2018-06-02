@@ -7,22 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D29A17F20C25BBF00D3464F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D29A17E20C25BBF00D3464F /* Assets.xcassets */; };
 		0D6D0B0B20B5349E00581648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D0B0A20B5349E00581648 /* AppDelegate.swift */; };
 		0D6D0B0D20B5349E00581648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D0B0C20B5349E00581648 /* ViewController.swift */; };
-		0D6D0B0F20B5349F00581648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D0B0E20B5349F00581648 /* Assets.xcassets */; };
 		0D6D0B1220B5349F00581648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D0B1020B5349F00581648 /* Main.storyboard */; };
 		0D6D0B1C20B546F600581648 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6D0B1B20B546F600581648 /* WebKit.framework */; };
+		F7C85F08C6F2BA3D02D367DE /* Pods_TriviaPeek5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85045F96860EEA677F6A47A /* Pods_TriviaPeek5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D29A17E20C25BBF00D3464F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6D0B0720B5349E00581648 /* TriviaPeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaPeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6D0B0A20B5349E00581648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D6D0B0C20B5349E00581648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D6D0B0E20B5349F00581648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D6D0B1120B5349F00581648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D6D0B1320B5349F00581648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D6D0B1420B5349F00581648 /* TriviaPeek5.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TriviaPeek5.entitlements; sourceTree = "<group>"; };
 		0D6D0B1B20B546F600581648 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		551ADDB41F8705796BD9FC23 /* Pods-TriviaPeek5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaPeek5.release.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaPeek5/Pods-TriviaPeek5.release.xcconfig"; sourceTree = "<group>"; };
+		9A0B774F7CE0DCD3747BC5DB /* Pods-TriviaPeek5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TriviaPeek5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TriviaPeek5/Pods-TriviaPeek5.debug.xcconfig"; sourceTree = "<group>"; };
+		D85045F96860EEA677F6A47A /* Pods_TriviaPeek5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TriviaPeek5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6D0B1C20B546F600581648 /* WebKit.framework in Frameworks */,
+				F7C85F08C6F2BA3D02D367DE /* Pods_TriviaPeek5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +48,7 @@
 				0D6D0B0920B5349E00581648 /* TriviaPeek5 */,
 				0D6D0B0820B5349E00581648 /* Products */,
 				0D6D0B1A20B546F600581648 /* Frameworks */,
+				92F21E74E520ED0B1E49C4E5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,9 +63,9 @@
 		0D6D0B0920B5349E00581648 /* TriviaPeek5 */ = {
 			isa = PBXGroup;
 			children = (
+				0D29A17E20C25BBF00D3464F /* Assets.xcassets */,
 				0D6D0B0A20B5349E00581648 /* AppDelegate.swift */,
 				0D6D0B0C20B5349E00581648 /* ViewController.swift */,
-				0D6D0B0E20B5349F00581648 /* Assets.xcassets */,
 				0D6D0B1020B5349F00581648 /* Main.storyboard */,
 				0D6D0B1320B5349F00581648 /* Info.plist */,
 				0D6D0B1420B5349F00581648 /* TriviaPeek5.entitlements */,
@@ -71,8 +77,18 @@
 			isa = PBXGroup;
 			children = (
 				0D6D0B1B20B546F600581648 /* WebKit.framework */,
+				D85045F96860EEA677F6A47A /* Pods_TriviaPeek5.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92F21E74E520ED0B1E49C4E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A0B774F7CE0DCD3747BC5DB /* Pods-TriviaPeek5.debug.xcconfig */,
+				551ADDB41F8705796BD9FC23 /* Pods-TriviaPeek5.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D6D0B1720B5349F00581648 /* Build configuration list for PBXNativeTarget "TriviaPeek5" */;
 			buildPhases = (
+				0F03DBE62C2172480162C5FC /* [CP] Check Pods Manifest.lock */,
 				0D6D0B0320B5349E00581648 /* Sources */,
 				0D6D0B0420B5349E00581648 /* Frameworks */,
 				0D6D0B0520B5349E00581648 /* Resources */,
+				C0FDBF8A91E74FD1C3B6F2D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,12 +156,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D6D0B0F20B5349F00581648 /* Assets.xcassets in Resources */,
+				0D29A17F20C25BBF00D3464F /* Assets.xcassets in Resources */,
 				0D6D0B1220B5349F00581648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F03DBE62C2172480162C5FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TriviaPeek5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0FDBF8A91E74FD1C3B6F2D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TriviaPeek5/Pods-TriviaPeek5-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LetsMove/LetsMove.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework",
+				"${PODS_ROOT}/Sparkle/Sparkle.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LetsMove.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sparkle.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Sparkle.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TriviaPeek5/Pods-TriviaPeek5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D6D0B0320B5349E00581648 /* Sources */ = {
@@ -284,10 +345,13 @@
 		};
 		0D6D0B1820B5349F00581648 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0B774F7CE0DCD3747BC5DB /* Pods-TriviaPeek5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z7794ASK38;
 				INFOPLIST_FILE = TriviaPeek5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -295,16 +359,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.livestonetech.TriviaPeek;
 				PRODUCT_NAME = TriviaPeek;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		0D6D0B1920B5349F00581648 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 551ADDB41F8705796BD9FC23 /* Pods-TriviaPeek5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Z7794ASK38;
 				INFOPLIST_FILE = TriviaPeek5/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +380,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.livestonetech.TriviaPeek;
 				PRODUCT_NAME = TriviaPeek;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;

@@ -1,7 +1,5 @@
 project 'TriviaPeek5.xcodeproj'
 
-source 'https://github.com/nsandman09/YWebView'
-
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
@@ -10,5 +8,6 @@ target 'TriviaPeek5' do
   use_frameworks!
 
   # Pods for TriviaPeek5
-  pod "YWebView"
+  pod "Sparkle"
+  pod "LetsMove"
 end

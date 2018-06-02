@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14109"/>
-        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14109"/>
-        <plugIn identifier="com.apple.WebKitIBPlugin" version="14109"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <plugIn identifier="com.apple.WebKit2IBPlugin" version="14113"/>
+        <plugIn identifier="com.apple.WebKitIBPlugin" version="14113"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,29 +16,74 @@
                         <items>
                             <menuItem title="TriviaPeek" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="TriviaPeek" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="TriviaPeek" systemMenu="apple" id="1We-xX-z1m">
                                     <items>
-                                        <menuItem title="Hide TriviaPeek5" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide TriviaPeek5" keyEquivalent="h" id="DeG-8c-SNB">
                                             <connections>
-                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="lu4-5M-fFY"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="tZh-Up-zM5">
                                             <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
                                             <connections>
-                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="ao3-xn-bo3"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                        <menuItem title="Show All" id="FeX-RD-bTY">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Tf7-xZ-CoA"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit TriviaPeek5" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem isSeparatorItem="YES" id="Bbx-3B-xS9"/>
+                                        <menuItem title="Check for Updates…" id="lQF-es-EGU" userLabel="Check for Updates">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                                <action selector="checkForUpdates:" target="S4U-7U-AgH" id="GbE-FH-Hxa"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="BQq-Sp-6sj"/>
+                                        <menuItem title="Quit TriviaPeek5" keyEquivalent="q" id="2nE-Zx-Ja6">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="hLI-Am-PUg"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                            <menuItem title="Edit" id="sfi-G4-rTE">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Edit" id="28S-EF-xrK">
+                                    <items>
+                                        <menuItem title="Undo" keyEquivalent="z" id="vTv-MN-fHE">
+                                            <connections>
+                                                <action selector="undo:" target="Ady-hI-5gd" id="T93-GU-WyI"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Redo" keyEquivalent="Z" id="ZIM-An-TXM">
+                                            <connections>
+                                                <action selector="redo:" target="Ady-hI-5gd" id="7gX-Xs-Alk"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="jjf-BS-lWC"/>
+                                        <menuItem title="Cut" keyEquivalent="x" id="5gY-7B-m5s">
+                                            <connections>
+                                                <action selector="cut:" target="Ady-hI-5gd" id="CkS-da-TGR"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Copy" keyEquivalent="c" id="Yq3-wr-4Ym">
+                                            <connections>
+                                                <action selector="copy:" target="Ady-hI-5gd" id="dba-Eb-tgl"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Paste" keyEquivalent="v" id="2hd-yI-PZW">
+                                            <connections>
+                                                <action selector="paste:" target="Ady-hI-5gd" id="gLK-iX-9vM"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Select All" keyEquivalent="a" id="coy-Yb-ebB">
+                                            <connections>
+                                                <action selector="selectAll:" target="Ady-hI-5gd" id="sh4-br-uel"/>
                                             </connections>
                                         </menuItem>
                                     </items>
@@ -53,6 +98,7 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="TriviaPeek" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="S4U-7U-AgH" customClass="SUUpdater"/>
             </objects>
             <point key="canvasLocation" x="75" y="0.0"/>
         </scene>
