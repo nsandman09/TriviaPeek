@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Your Great App's Changelog</title>
+      <link>http://you.com/app/appcast.xml</link>
+      <description>Most recent changes with links to updates.</description>
+      <language>en</language>
+				<!-- Now here's an example of a version with a weird internal version number (like an SVN revision) but a human-readable external one. -->
+				<item>
+           <title>Version 1.0</title>
+						<sparkle:releaseNotesLink>
+							https://github.com/nsandman09/TriviaPeek/releases
+						</sparkle:releaseNotesLink>
+           <pubDate>Fri, 01 Jun 2018 12:20:11 +0000</pubDate>
+           <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.0/TriviaPeek.zip" sparkle:version="1.0" sparkle:shortVersionString="1.0" type="application/octet-stream" />
+        </item>
+   </channel>
+</rss>
