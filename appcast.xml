@@ -3,16 +3,23 @@
    <channel>
       <title>TriviaPeek: Changelog</title>
       <link>https://triviapeek-appcast.herokuapp.com/TriviaPeek/appcast.xml</link>
-      <description>Initial version</description>
+      <description>Added signature, added auto-update and moving to /Applications</description>
       <language>en</language>
-				<!-- Now here's an example of a version with a weird internal version number (like an SVN revision) but a human-readable external one. -->
-				<item>
+	   <item>
+		   <title>Version 1.1</title>
+							<sparkle:releaseNotesLink>
+								https://github.com/nsandman09/TriviaPeek/releases
+							</sparkle:releaseNotesLink>
+		   <pubDate>Fri, 01 Jun 2018 12:20:11 +0000</pubDate>
+		   <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.1/TriviaPeek.zip" sparkle:version="1.0" sparkle:dsaSignature="YADFEiMeutHtqqXY8vWFV6HSm8iqs9U=" type="application/octet-stream" />
+	</item>
+	<item>
            <title>Version 1.0</title>
 						<sparkle:releaseNotesLink>
 							https://github.com/nsandman09/TriviaPeek/releases
 						</sparkle:releaseNotesLink>
            <pubDate>Fri, 01 Jun 2018 12:20:11 +0000</pubDate>
-           <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.0/TriviaPeek.zip" sparkle:shortVersionString="1.0" sparkle:dsaSignature="iOfwurYLSlfwS4t8P+NRatRc+0YzB34=" type="application/octet-stream" />
+           <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.0/TriviaPeek.zip" sparkle:version="1.0" sparkle:dsaSignature="iOfwurYLSlfwS4t8P+NRatRc+0YzB34=" type="application/octet-stream" />
         </item>
    </channel>
 </rss>
