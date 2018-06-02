@@ -12,7 +12,7 @@
 							https://github.com/nsandman09/TriviaPeek/releases
 						</sparkle:releaseNotesLink>
            <pubDate>Fri, 01 Jun 2018 12:20:11 +0000</pubDate>
-           <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.0/TriviaPeek.zip" sparkle:shortVersionString="1.0" sparkle:dsaSignature="iOfwurYLSlfwS4t8P+NRatRc+0YzB34=" type="application/octet-stream" />
+           <enclosure url="https://github.com/nsandman09/TriviaPeek/releases/download/1.0/TriviaPeek.zip" sparkle:shortVersionString="1.0" sparkle:dsaSignature="MEUCIQCBzS+w+6PNmGoaYi7f0dAdvV8FtqeWz+AKLPgJTa19VwIgL+1AQ9hhIdSUiOfwurYLSlfwS4t8P+NRatRc+0YzB34=" type="application/octet-stream" />
         </item>
    </channel>
 </rss>
