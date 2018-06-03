@@ -1,4 +1,3 @@
-*.pem
-generate_keys
-sign_update
-*.zip
+*
+
+!appcast.xml
